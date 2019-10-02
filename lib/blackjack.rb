@@ -61,10 +61,10 @@ def runner
   
   while display_card_total < 22
   card_total = hit?(card_total)
-  display_card_total(card_total)
+  display_card_total(30)
   end
   
-end_game(card_total)
+  end_game(card_total)
   
 end
     

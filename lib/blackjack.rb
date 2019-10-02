@@ -61,7 +61,7 @@ def runner
   welcome 
   card_total = initial_round
   
-  while display_card_total < 22
+  while display_card_total(card_total) < 22
   card_total = hit?(card_total)
   display_card_total(card_total)
   binding.pry

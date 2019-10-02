@@ -37,10 +37,11 @@ def hit?(card_total)
   answer = get_user_input
   if answer == "h"
     nextround = deal_card
-    card_total += deal_card
+    card_total = card_total + deal_card
   else if answer != "s" && answer !0 "n"
     invalid_command
   end
+  card_total
 end
 
 def invalid_command

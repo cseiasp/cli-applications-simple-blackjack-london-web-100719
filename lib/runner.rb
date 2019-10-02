@@ -1,6 +1,6 @@
 require_relative "blackjack.rb"
 
-runner
+def runner
 
 welcome
 
@@ -8,4 +8,5 @@ initial_round
 
 get_user_input
 
+end
 

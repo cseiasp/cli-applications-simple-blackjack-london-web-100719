@@ -40,6 +40,7 @@ def hit?(card_total)
     card_total +=  nextround
   else if answer != "s" && answer != "n"
     invalid_command
+    prompt_user
   end
 end
   card_total

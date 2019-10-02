@@ -41,7 +41,7 @@ def hit?(card_total)
   else if answer != "s" && answer != "n"
     invalid_command
     prompt_user
-    answer
+    get_user_input
   end
 end
   card_total

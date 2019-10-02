@@ -37,8 +37,7 @@ def hit?(card_total)
   answer = get_user_input
   if answer == "h"
     nextround = deal_card
-    nextround
-    card_total +=  deal_card
+    card_total +=  nextround
   else if answer != "s" && answer != "n"
     invalid_command
   end
